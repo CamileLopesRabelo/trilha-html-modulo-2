@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Fernando Pessoa</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+            <li><a href="index.html">Página inicial</a></li>
+            <li><a href="about.html">Sobre a Clínica</a></li>
+            <li><a href="atendimentos.html">Horários de atendimento</a></li>
+            <li><a href="contato.html">Fale Conosco</a></li>
+           </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="imagens\fale-fernando-pessoa.jpg" width="150">
+            </div>
+    
+            <div class="content">
+                <h2> <font color="green" face="Arial"><u>Fale Conosco</u></font></h2>
+                <p><font face="Arial">A clínica Fernando Pessoa tem todo interesse em ouvir o que você tem a dizer, suas sugestões ou reclamações. Envie sua mensagem, ela é muito bem-vinda.</font></p>
+
+                <h2><font face="Arial" color="green"><u>Contatos:</u></font></h2>
+                <h3><font face="Arial"></font>(85) 3266.1415</font></h3>
+                <h3><font face="Arial"></font>(85) 98710.6483 ( OI )</font></h3>
+                <h3><font face="Arial"></font>(85) 99980.7770 ( TIM )</font></h3>
+
+                <form name="contact" action="http://127.0.0.1:5500/contato.html" method="post" onsubmit="alert('Mensagem enviada');" autocomplete="on">
+                    <label for="">Nome </label><input type="text"><br>
+                    <label for="">Email </label><input type="email"><br>
+                    <label for="">Assunto </label><input type="text"><br>
+                    <label for="">Mensagem </label><br>
+                    <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                    <button type="reset">Limpar</button>    <button type="submit">Enviar</button>
+                </form> 
+            </div>
+    
+            <div class="footer">
+                <h3>Av. Antônio Sales, 2933 - Dionísio Torres, Fortaleza - CE Tel.:(85) 3266-1415</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
